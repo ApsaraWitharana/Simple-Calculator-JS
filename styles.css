@@ -58,5 +58,37 @@ form input.operator {
     color: #33ffd8;
 } 
 
+/* set responcive */
 
+@media all and (max-width: 1024px) {
+    #container_section {
+        width: 50% !important;
+    }
+}
 
+@media all and (max-width: 768px) {
+    #container_section {
+        width: 80% !important;
+    }
+}
+
+@media all and (max-width: 425px) {
+    #container_section {
+        width: 90% !important;
+    }
+}
+
+@media all and (max-width: 425px) {
+    #container_section {
+        width: 100% !important;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
