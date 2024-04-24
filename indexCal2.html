@@ -13,6 +13,9 @@
         * {
             font-family: 'Poppins', sans-serif;
             background-color: black;
+              margin: 0;
+              padding: 0;
+    
         }
         body{
             background: url("assets/assets/images/wpp-wallpaper.jpg ");
@@ -24,7 +27,7 @@
 
         #btn7:hover,#btn8:hover,#btn9:hover,#btn4:hover,#btn5:hover,#btn6:hover,#btn1:hover,#btn2:hover,#btn3:hover,#btn0:hover,#btnDot:hover,#btnEqual:hover,#btnPlus:hover,#btnMinus:hover,#btnDivide:hover,#btnMultiplication:hover {
             background-color: #9F98E4 !important;
-            border-bottom: 2px solid #883be0 !important;
+            border-bottom: 2px solid #4a0797 !important;
          
         }
         #btnC:hover{
@@ -81,13 +84,14 @@
         <section class="row m-auto mt-4 mb-4 mx-4 py-1 " style="height: 60px">
             <div class="col-3 h-100" >
                 <button id="btnC" class="btn w-100 h-100" style="background-color: #ffa7a7; border-bottom: 2px solid #ff6d6d">AC</button>
+               
                 <!-- <input  type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator"> -->
             </div>
             <div class="col h-100">
                 <input id="inpDis" type="text" class="form-control w-100 h-100 rounded-2 bg-white bg-opacity-10 border-black border-2 border-opacity-100 text-white" style="text-align: right" disabled >
             </div>
         </section>
-        <section class="row m-auto  mt-4 mb-1 mx-4 py-1" style="height: 60px">
+        <section class="row m-auto  mt-4 mb-1 mx-4 py-1" style="height: 48px">
             <div class="col-3 h-100" >
                 <button id="btn7" class="btn w-100 h-100 bg-white bg-opacity-50" style="">7</button>
             </div>
@@ -171,7 +175,7 @@
     btnPlus.addEventListener("click",function(){
         operator="plus";
         if (typeof midNum == 'undefined') {
-            number = display.value;
+            number += display.value;
         }else{
             number = midNum;
         }
