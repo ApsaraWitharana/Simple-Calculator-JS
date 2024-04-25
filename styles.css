@@ -11,6 +11,7 @@
     outline: none;
 }
 
+
  img {
      background: url("assets/assets/images/watercolor-4116932_1920.png");
      background-position: center;
@@ -111,50 +112,115 @@ background-color: #9F98E4 !important;
 
 @media all and (max-width: 1024px) {
     #container {
-        max-width: 90% !important;
+        max-width: 90% ;
     }
+        button{
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+        margin: 6px;
+    }
+    input{
+        width: 250px;
+        height: 55px;
+        font-size: 40px;
+         }
+    .equal{
+        width: 100px;
+        border-radius: 35px;
+        
+    }
+     body{
+         width: 90%;
+            
+
+    }
+    .calculator{
+     padding:12px ;
+    }
+
+    .heder{
+     font-size: 18pxpx;
+     }
 }
 
 @media all and (max-width: 768px) {
     #container {
-        max-width: 70% !important;
+        max-width: 70% ;
     }
+      
+    button{
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+        margin: 4px;
+    } 
+    
+    input {
+       width: 200px;
+       height: 65px;
+       font-size: 30px;
+     }
+    .equal {
+     width: 100px;
+     border-radius: 30px;
+    
+    }
+
+    .calculator {
+    padding: 10px;
+    }
+
+    .heder{
+        font-size: 10px;
+    }
+
 }
 
 @media all and (max-width: 668px) {
     #container {
-        max-width: 60% !important;
+        max-width: 60% ;
     }
+
+     button {
+        width: 30px;
+        height: 30px;
+    }
+
+     input {
+          width: 200px;
+         height: 55px;
+         
+     }
+
+    .calculator {
+     padding: 8px;
+     }
 }
 
 @media all and (max-width: 425px) {
     #container {
-        max-width: 55% !important;
+        max-width: 55% ;
+    }
+    button {
+      width: 28px;
+     height: 28px;
     }
 }
 
-@media all and (max-width: 378px) {
-    #container {
-        max-width: 30% !important;
-    }
-}
-@media all and (max-width: 378px) {
-    #container {
-        max-width: 20% !important;
-    }
-}
+
 
 @media all and (max-width: 425px) {
     #container {
-        max-width: 100% !important;
+        max-width: 100% ;
         margin-left: 10px;
         margin-right: 10px;
-        padding-top: 15px;
-        padding-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .row {
-        margin-right: 0 !important;
-        margin-left: 0 !important;
+        margin-right: 0 ;
+        margin-left: 0 ;
     }
 }
